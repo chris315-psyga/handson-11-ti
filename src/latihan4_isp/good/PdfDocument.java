@@ -2,7 +2,7 @@ package latihan4_isp.good;
 
 // PdfDocument hanya implement capability yang dimiliki
 // Readable + Printable saja
-public class PdfDocument implements Readable, Printable {
+public class PdfDocument implements ReadablE, Printable {
     private String filename;
 
     public PdfDocument(String filename){

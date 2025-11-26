@@ -1,7 +1,7 @@
 package latihan4_isp.good;
 
 // WordDocument implement 3 capability
-public class WordDocument implements Readable, Editable, Printable {
+public class WordDocument implements ReadablE, Editable, Printable {
     private String filename;
 
     public WordDocument(String filename){

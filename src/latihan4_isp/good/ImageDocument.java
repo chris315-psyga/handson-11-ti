@@ -2,7 +2,7 @@ package latihan4_isp.good;
 
 // ImageDocument hanya implement 2 capability
 // Tidak ada UnsupportedOperationException!
-public class ImageDocument implements Readable, Resizable {
+public class ImageDocument implements ReadablE, Resizable {
     private String filename;
 
     public ImageDocument(String filename){

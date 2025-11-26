@@ -2,7 +2,7 @@ package latihan4_isp.good;
 
 // SpreadsheetDocument adalah full-featured document
 // Implement semua capability kecuali Resizable
-public class SpreadsheetDocument implements Readable, Editable, Printable, Calculable {
+public class SpreadsheetDocument implements ReadablE, Editable, Printable, Calculable {
     private String filename;
 
     public SpreadsheetDocument(String filename){

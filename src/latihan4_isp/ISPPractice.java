@@ -1,5 +1,6 @@
 package latihan4_isp;
-
+import java.util.List;
+import java.util.ArrayList;
 // import latihan4_isp.good.*; // Uncomment setelah refactoring selesai
 import latihan4_isp.good.*;
 public class ISPPractice {
@@ -134,8 +135,8 @@ public class ISPPractice {
 
         System.out.println("\n--- Polymorphic Usage ---");
         // Bisa menggunakan interface sesuai kebutuhan
-        Readable readable1 = new PdfDocument("Doc1.pdf");
-        Readable readable2 = new ImageDocument("Image1.jpg");
+        ReadablE readable1 = new PdfDocument("Doc1.pdf");
+        ReadablE readable2 = new ImageDocument("Image1.jpg");
         readable1.read();
         readable2.read();
 
